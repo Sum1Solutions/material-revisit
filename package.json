@@ -1,21 +1,19 @@
 {
-  "name": "nodebb-theme-material-dark",
+  "name": "nodebb-theme-material-revisit",
   "version": "1.0.1",
   "nbbpm": {
     "compatibility": "^1.0.0"
   },
-  "description": "Material Design dark theme for NodeBB",
+  "description": "Material Design dark theme for NodeBB. Based off Ferrari's nodebb-theme-material-dark. This is just for personal testing purposes.",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ferrari/nodebb-theme-material-dark"
+    "url": "https://github.com/sarah-verys/material-revisit"
   },
   "keywords": [
     "nodebb",
-    "material",
-    "material design",
-    "dark theme",
-    "themes"
+    "themes",
+    "test"
   ],
   "author": {
     "name": "pichalite",
@@ -25,9 +23,10 @@
     {
       "name": "Ferrari Lee",
       "email": "shiyung@positivegrid.com"
+    },
+    {
+      "name": "Sarah Godoshian",
+      "email": "sarah.godoshian@gmail.com"
     }
-  ],
-  "bugs": {
-    "url": "https://github.com/Ferrari/nodebb-theme-material-dark/issues"
-  }
+  ]
 }
