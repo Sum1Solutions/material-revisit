@@ -4,8 +4,8 @@ body {
 	font-family: roboto;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color :#9A9A9A;
-	background-color: #303030;
+	color: @grey-dark;
+	background-color: @grey-lightest;
 	font-weight: 400;
 	padding-top: 65px;
 }
@@ -15,7 +15,12 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: @grey-normal;
+    font-weight: bold;
+
+    &:hover {
+    	color: @black;
+    }
 }
 
 *, :active, :hover {

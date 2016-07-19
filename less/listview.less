@@ -74,7 +74,7 @@
 		text-align: center;
 		padding: 15px 10px 13px;
 		line-height: 100%;
-		border-bottom: 1px solid #F0F0F0;
+		border-bottom: 1px solid @border-color;
 		font-weight: 500;
 		color: #4C4C4C;
 
@@ -87,8 +87,8 @@
 	}
 
 	.lv-header-alt {
-		background: #212121;
-		padding: 12px;
+		background: @grey-lightest;
+		padding: 12px 0px;
 		//border-bottom: 1px solid #EEE;
 
 		@media (max-width: @screen-xs-max) {
@@ -123,7 +123,7 @@
 		}
 
 		.title {
-			padding-left: 10px;
+			//padding-left: 10px;
 		}
 	}
 
@@ -131,7 +131,7 @@
 		display: block;
 		text-align: center;
 		padding: 7px 10px 8px;
-		border-top: 1px solid #F0F0F0;
+		border-top: 1px solid @border-color;
 		line-height: 100%;
 		margin-top: 20px;
 		color: #828282;
@@ -168,7 +168,7 @@
 	}
 
 	&.lv-bordered .lv-item:not(:last-child) {
-		border-bottom: 1px solid #212121;
+		border-bottom: 1px solid @border-color;
 	}
 
 	.lv-attrs {
