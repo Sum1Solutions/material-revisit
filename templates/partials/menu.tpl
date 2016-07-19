@@ -6,13 +6,6 @@
     </div>
 <header id="header" component="navbar">
     <ul class="header-inner">
-        <li id="menu-trigger" data-trigger="#sidebar" <!-- IF config.menuInHeader -->class="menu-header"<!-- ENDIF config.menuInHeader -->>
-            <div class="line-wrap">
-                <div class="line top"></div>
-                <div class="line center"></div>
-                <div class="line bottom"></div>
-            </div>
-        </li>
     	<li class="logo <!-- IF config.menuInHeader -->menu-in-header<!-- ENDIF config.menuInHeader -->">
 			<!-- IF brand:logo -->
             <a href="<!-- IF brand:logo:url -->{brand:logo:url}<!-- ELSE -->{relative_path}/<!-- ENDIF brand:logo:url -->">
@@ -182,6 +175,13 @@
 				</a>
             </li>
             <!-- ENDIF config.loggedIn -->
+            <li id="menu-trigger" data-trigger="#sidebar" <!-- IF config.menuInHeader -->class="menu-header"<!-- ENDIF config.menuInHeader -->>
+                <div class="line-wrap">
+                    <div class="line top"></div>
+                    <div class="line center"></div>
+                    <div class="line bottom"></div>
+                </div>
+            </li>
             </ul>
         </li>
     </ul>
